@@ -1,6 +1,6 @@
 中文官网：[http://www.wenshuai.cn/Manual/Zepto/](http://www.wenshuai.cn/Manual/Zepto/)
-
 源码：[https://github.com/madrobby/zepto/](https://github.com/madrobby/zepto/blob/master/src/zepto.js)
+
 **如果你会jQuery的话，那么你就会zepto.js**
 # 一、文档加载
 **方法一：** 
@@ -147,7 +147,7 @@ $('button').click(function(){
 });
 //注意：当节点删除找回后，事件也会有。
 ```
-- ## 样式操作及选择器
+					## 样式操作及选择器
 1、css //给样式
 2、removeAttr(自定义属性) //移动当前Zepto对象集合中所有元素的指定属性（可以移除多个）。比如：
 ```html
