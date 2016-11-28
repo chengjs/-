@@ -37,12 +37,15 @@ var a = $('<p/>',{ text:'zepoto.js', id:'box', css:{ color:'red'} })
 //               对象   属性    值          属性 值   属性  值
 //可以通过一个html字符串片段来创建一个dom节点。也可以通过给定一组属性映射来创建节点。最快的创建但元素，使用<div> 或 <div/>形式。
 ```
-- ## 节点操作
-#### 1、append()  - 将某个元素插入到元素的末尾； 比如：
+
+## 节点操作
+
+1、append() 将某个元素插入到元素的末尾； 比如：
+
 ``` javascript
 $('div').append('<span>节点插入</span>');  //解释：将后面的节点插入到div里面
 ```
-#### 2、appendTo()  - 和上面的是一样的。将某个元素插入到元素的末尾，比如：
+#### 2、appendTo()  和上面的是一样的。将某个元素插入到元素的末尾，比如：
 ``` javascript
 var pObj = $('<p/>',{ text:'zepoto.js', id:'box', css:{ color:'red'} })
 pObj.appendTo($('div'));
