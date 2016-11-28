@@ -25,6 +25,7 @@ $(function () {
 ```
 # 二、操作的方法及属性
 > ### 下面是创建节点
+
 **方法一：**
 ```javascript
 var a = $('<p class="box">zepto.js</p>');
