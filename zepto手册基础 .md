@@ -1,4 +1,5 @@
 中文官网：[http://www.wenshuai.cn/Manual/Zepto/](http://www.wenshuai.cn/Manual/Zepto/)
+
 源码：[https://github.com/madrobby/zepto/](https://github.com/madrobby/zepto/blob/master/src/zepto.js)
 
 **如果你会jQuery的话，那么你就会zepto.js**
@@ -147,7 +148,7 @@ $('button').click(function(){
 });
 //注意：当节点删除找回后，事件也会有。
 ```
-					## 样式操作及选择器
+## 样式操作及选择器
 1、css //给样式
 2、removeAttr(自定义属性) //移动当前Zepto对象集合中所有元素的指定属性（可以移除多个）。比如：
 ```html
@@ -237,4 +238,27 @@ $('ol > li').has('a[href]').css('background','red');
 **例子二：**
 ```javascript
 $('ol').has('span').css('background','red');
+```
+1、$.isArray() //判断是不是数组； 如果object是array，则返回ture。比如：
+```javascript
+var arr = [];
+alert($.isArray(arr));
+```
+2、$.isFunction() //判断是不是函数。如果object是function，则返回ture。比如：
+```javascript
+var fn = function () {};  alert($.isFunction(arr));
+```
+3、$.isPlainObject //测试对象是否是纯粹的对象（通过 "{}" 或者 "new Object" 创建的），如果是，则返回true。
+```javascript
+var json = {};
+alert($.isPlainObject(json)); 
+//注意：即使window对象也是false。
+```
+4、$.isWindow //确定参数是否为一个窗口（window对象），如果是则返回true。这在处理iframe时非常有用，因为每个iframe都有它们自己的window对象，使用常规方法obj==window校验这些objects的时候会失败。
+```javascript
+alert($.isWindow(window));
+```
+5、hasClass() 检查Zepto对象集合中是否有元素含有指定的class（如果元素是有一个或多个class名字存在的话，那么）。比如：
+```javascript
+console.log($('li').hasClass('no1'));
 ```
