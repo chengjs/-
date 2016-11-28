@@ -1,4 +1,5 @@
 /* ================================================================= * Reset Stylesheet for Mobile * Author:Bon * Author URI:http://www.ccwebsite.com/ * Date:2015-05-29 * Last Update:2015-10-20 * Version:1.2.2 * ================================================================== */ 
+/* 样式初始化，用于移动端 */
 html{font-family:"Helvetica Neue", Helvetica, STHeiTi, sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 html,body{-webkit-user-select:none;user-select:none;}
 html,body,div,object,iframe,applet,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,address,dl,dt,dd,ol,ul,li,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,progress{margin:0;padding:0;border:0;vertical-align:baseline}
