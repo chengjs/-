@@ -239,6 +239,7 @@ $('ol > li').has('a[href]').css('background','red');
 ```javascript
 $('ol').has('span').css('background','red');
 ```
+## 判断
 1、$.isArray() //判断是不是数组； 如果object是array，则返回ture。比如：
 ```javascript
 var arr = [];
